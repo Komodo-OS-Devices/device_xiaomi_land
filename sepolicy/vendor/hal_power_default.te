@@ -5,3 +5,9 @@ allow hal_power_default proc_touchpanel:file rw_file_perms;
 # DT2W
 allow hal_power_default sysfs_dt2w:file rw_file_perms;
 allow hal_power_default sysfs_dt2w:dir search;
+
+# Perf
+allow hal_power_default sysfs_msm_subsys:dir search;
+allow hal_power_default sysfs_msm_subsys:file w_file_perms;
+allow hal_power_default sysfs_devices_system_cpu:file w_file_perms;
+allow hal_power_default latency_device:chr_file w_file_perms;
