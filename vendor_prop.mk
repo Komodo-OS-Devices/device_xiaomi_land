@@ -223,3 +223,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # UI
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.use_fifo_ui=1
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.komodo.maintainer=Aoihara X Gabrielse
