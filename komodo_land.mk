@@ -26,6 +26,9 @@ $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 # Official tag
 KOMODO_BUILD_TYPE := OFFICIAL
 
+# Gapps
+CURRENT_BUILD_TYPE := nogapps
+
 # Inherit from land device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
