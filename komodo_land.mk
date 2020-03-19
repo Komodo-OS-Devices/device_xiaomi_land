@@ -23,6 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 # Inherit some common from Komodo-OS stuff
 $(call inherit-product, vendor/komodo/config/common_full_phone.mk)
 
+# Official tag
+KOMODO_BUILD_TYPE := OFFICIAL
+
 # Inherit from land device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
