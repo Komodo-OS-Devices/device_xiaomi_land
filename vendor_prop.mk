@@ -226,4 +226,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    org.komodo.maintainer=Aoihara X Gabrielse
+    org.komodo.maintainer=Aoihara×Gabrielse
