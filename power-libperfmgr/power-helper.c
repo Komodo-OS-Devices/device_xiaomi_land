@@ -52,7 +52,7 @@
 #define WLAN_POWER_STAT "/d/wlan0/power_stats"
 #endif
 
-#define TAP_TO_WAKE_NODE "/proc/tpd_gesture"
+#define TAP_TO_WAKE_NODE "/sys/android_touch/doubletap2wake"
 
 #define ARRAY_SIZE(x) (sizeof((x))/sizeof((x)[0]))
 #define LINE_SIZE 128
