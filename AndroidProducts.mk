@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_land.mk
+    $(LOCAL_DIR)/komodo_land.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_land-user \
-    aosip_land-userdebug \
-    aosip_land-eng
+    komodo_land-user \
+    komodo_land-userdebug \
+    komodo_land-eng
